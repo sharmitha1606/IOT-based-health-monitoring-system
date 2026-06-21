@@ -1,6 +1,6 @@
-#define BLYNK_TEMPLATE_ID "TMPL3qD_11uGv"
-#define BLYNK_TEMPLATE_NAME "Health  monitoring system"
-#define BLYNK_AUTH_TOKEN "Gs29y1m1lI-NR9GTsPtkXTMwX98bEJhg"
+#define BLYNK_TEMPLATE_ID ""
+#define BLYNK_TEMPLATE_NAME ""
+#define BLYNK_AUTH_TOKEN ""
 #define BLYNK_PRINT Serial
 #include <WiFi.h>
 #include <BlynkSimpleEsp32.h>
@@ -8,8 +8,8 @@
 #include <LiquidCrystal_I2C.h>
 #include <MAX30105.h>
 #include "spo2_algorithm.h"
-char ssid[] = "5g data";
-char pass[] = "kamal2024";
+char ssid[] = " ";
+char pass[] = " ";
 LiquidCrystal_I2C lcd(0x27,16,2);
 MAX30105 particleSensor;
 #define BUFFER_SIZE 25
